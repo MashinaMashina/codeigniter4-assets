@@ -3,7 +3,9 @@ Lightweight asset loader for CodeIgniter 4
 
 ## Quick Start
 
-1. Install with Composer: `> composer require tatter/assets`
+1. Install with Composer: `> composer require 
+
+software/codeigniter4-assets`
 2. Put CSS & JS files in: **public/assets**
 3. Add additional assets to config: **app/Config/Assets.php**
 3. Add in head tag: `<?= service('assets')->css() ?>`
@@ -17,7 +19,7 @@ Provides out-of-the-box asset loading for CSS and JavaScript files for CodeIgnit
 
 Install easily via Composer to take advantage of CodeIgniter 4's autoloading capabilities
 and always be up-to-date:
-* `> composer require tatter/assets`
+* `> composer require tattersoftware/codeigniter4-assets`
 
 Or, install manually by downloading the source files and adding the directory to
 `app/Config/Autoload.php`.
@@ -104,14 +106,14 @@ the uploads:
 
 Add this module as well:
 
-	composer require tatter\assets
+	composer require tattersoftware/codeigniter4-assets
 
 Create manifests and the config file in your project:
 ```
 mkdir app/Manifests
-cp vendor/tatter/assets/examples/Dropzone.json app/Manifests/
-cp vendor/tatter/assets/examples/Bootstrap.json app/Manifests/
-cp vendor/tatter/assets/bin/Assets.php app/Config/
+cp vendor/tattersoftware/codeigniter4-assets/examples/Dropzone.json app/Manifests/
+cp vendor/tattersoftware/codeigniter4-assets/examples/Bootstrap.json app/Manifests/
+cp vendor/tattersoftware/codeigniter4-assets/bin/Assets.php app/Config/
 ```
 
 Edit your config file so Bootstrap will always load, and DropzoneJS will load on certain routes:
